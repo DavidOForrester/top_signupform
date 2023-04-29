@@ -7,16 +7,23 @@ html {
 body {
   display: flex;
   margin: 0;
+  align-items: center;
 }
 
 img {
   max-height: 100vh;
 }
 
+.content {
+    width: 600px;
+}
+
 .header,
 .form,
 .footer {
     padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header,
@@ -28,6 +35,7 @@ form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
+
 }
 
 .form-group {
@@ -35,7 +43,6 @@ form {
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
   grid-gap: 0.5rem;
-  margin: 10px;
 }
 
 label {
